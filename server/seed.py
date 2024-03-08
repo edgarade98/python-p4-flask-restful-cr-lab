@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+import sys
+
+sys.path.append("/Users/winnie/python-p4-flask-restful-cr-lab/")
+
 from app import app
 from models import db, Plant
 
